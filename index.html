@@ -9,47 +9,24 @@
 <body>
   <header>
     <h1>Casa Espartana</h1>
-    <p class="slogan">Ferramentas brutais para homens que constroem e guerreiam</p>
+    <p>Ferramentas com a força de um guerreiro</p>
   </header>
-  <section class="categorias">
-    <button onclick="filtrarCategoria('todas')">Todas</button>
-    <button onclick="filtrarCategoria('manual')">Manuais</button>
-    <button onclick="filtrarCategoria('eletrica')">Elétricas</button>
-    <button onclick="filtrarCategoria('acessorios')">Acessórios</button>
-  </section>
-  <main id="produtos">
-    <div class="produto manual">
-      <img src="https://images.unsplash.com/photo-1601758003122-58e4b7c14710?auto=format&fit=crop&w=600&q=80" alt="Marreta Tática">
-      <h2>Marreta Tática Espartana 8kg</h2>
-      <p class="descricao">Cuidado com os fracos: essa marreta não perdoa. Corpo em aço e alma de guerreiro.</p>
-      <p class="preco">€42,90</p>
-      <button>Comprar Agora</button>
-    </div>
-    <div class="produto eletrica">
-      <img src="https://images.unsplash.com/photo-1581090700227-1e8e7b7ef4af?auto=format&fit=crop&w=600&q=80" alt="Furadeira Leão">
-      <h2>Furadeira de Impacto 'Leão de Esparta'</h2>
-      <p class="descricao">1.200 RPM de pura brutalidade. Ideal pra obra, pedra, cimento e o que mais aparecer.</p>
-      <p class="preco">€89,00</p>
-      <button>Comprar Agora</button>
-    </div>
-    <div class="produto acessorios">
-      <img src="https://images.unsplash.com/photo-1604859465254-7301b48f5c1c?auto=format&fit=crop&w=600&q=80" alt="Canivete Lambda">
-      <h2>Canivete Militar Dobrável 'Lambda'</h2>
-      <p class="descricao">Lâmina afiada, estrutura dobrável, ideal pra quem vive entre o concreto e a guerra.</p>
-      <p class="preco">€29,90</p>
-      <button>Comprar Agora</button>
-    </div>
+  <main>
+    <section class="produtos">
+      <article>
+        <h2>Martelo de Guerra</h2>
+        <p>Martelo de aço reforçado, pronto para qualquer batalha.</p>
+        <button>Comprar Agora</button>
+      </article>
+      <article>
+        <h2>Furadeira Espartana 3000</h2>
+        <p>Furadeira elétrica de alto desempenho.</p>
+        <button>Comprar Agora</button>
+      </article>
+    </section>
   </main>
   <footer>
-    <p>&copy; 2025 Casa Espartana. Todos os direitos reservados.</p>
-    <a href="https://wa.me/351926729292" target="_blank">Fale conosco no WhatsApp</a>
+    <p>&copy; 2025 Casa Espartana</p>
   </footer>
-  <script>
-    function filtrarCategoria(cat) {
-      document.querySelectorAll('.produto').forEach(el => {
-        el.style.display = (cat === 'todas' || el.classList.contains(cat)) ? 'block' : 'none';
-      });
-    }
-  </script>
 </body>
 </html>
