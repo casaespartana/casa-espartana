@@ -14,9 +14,22 @@ header {
   font-style: italic;
   margin-top: 0.5rem;
 }
-main.produtos {
+.categorias {
+  background: #222;
+  padding: 1rem;
+  text-align: center;
+}
+.categorias button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
   padding: 2rem;
 }
@@ -30,17 +43,10 @@ main.produtos {
   max-width: 100%;
   border-radius: 8px;
 }
-.produto p {
-  margin: 0.5rem 0;
-}
-button {
-  background: #f60;
-  border: none;
-  color: white;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
+.preco {
+  color: #f44;
   font-weight: bold;
-  border-radius: 4px;
+  margin-top: 0.5rem;
 }
 footer {
   background: #000;
