@@ -1,124 +1,77 @@
-<!DOCTYPE html><html lang="es">
+<!DOCTYPE html>
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Casa Espartana</title>
+  <title>Casa Espartana – Makita Catalogo</title>
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f7f7f7;
-    }
-    header {
-      background-color: #111;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      padding: 0;
-      margin: 0;
-      gap: 20px;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .banner {
-      background: url('banner-espartano.png') center/cover no-repeat;
-      height: 300px;
-    }
-    main {
-      max-width: 1200px;
-      margin: auto;
-      padding: 20px;
-    }
-    h2 {
-      border-bottom: 3px solid #d62828;
-      padding-bottom: 10px;
-    }
-    .producto {
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      padding: 20px;
-      margin-bottom: 20px;
-      background-color: white;
-    }
-    .producto img {
-      max-width: 100%;
-      border-radius: 8px;
-    }
-    .preco {
-      color: #d62828;
-      font-weight: bold;
-      font-size: 1.2rem;
-    }
-    footer {
-      background-color: #111;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-    .whatsapp {
-      color: #25D366;
-      text-decoration: none;
-      display: inline-block;
-      margin-top: 10px;
-    }
+    body { font-family: Arial, sans-serif; margin:0; background:#f4f4f4; }
+    header { background:#111; color:#fff; padding:20px; text-align:center; }
+    nav a { color:#fff; margin:0 10px; text-decoration:none; }
+    .banner { background:url('banner-espartano.png') center/cover no-repeat; height:300px; }
+    main { max-width:1200px; margin:auto; padding:20px; }
+    section { margin-bottom:40px; }
+    .producto { background:#fff; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.1); padding:20px; margin-bottom:20px; }
+    .producto img { width:100%; max-height:200px; object-fit:contain; }
+    .precio { font-weight:bold; color:#d62828; font-size:1.2rem; margin:10px 0; }
+    .boton, .whatsapp { display:inline-block; margin:10px 5px; padding:10px 15px; color:#fff; text-decoration:none; border-radius:5px; font-weight:bold; }
+    .boton { background:#d62828; }
+    .whatsapp { background:#25D366; }
   </style>
 </head>
 <body>
   <header>
     <h1>Casa Espartana</h1>
     <nav>
-      <ul>
-        <li><a href="#electricas">Herramientas Eléctricas</a></li>
-        <li><a href="#manuales">Herramientas Manuales</a></li>
-        <li><a href="#sobrenosotros">Sobre Nosotros</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
+      <a href="#makita">Makita</a>
+      <a href="#sobrenosotros">Sobre Nosotros</a>
+      <a href="#contacto">Contacto</a>
     </nav>
-  </header>  <section class="banner"></section>  <main>
-    <section id="electricas">
-      <h2>Herramientas Eléctricas</h2><div class="producto">
-    <h3>BLACK+DECKER Sierra Circular CS1250L‑qs</h3>
-    <img src="https://m.media-amazon.com/images/I/81-RbOlTkKL._AC_SL1500_.jpg" alt="Sierra Black+Decker">
-    <p>Sierra circular potente de 1250 W, profundidad hasta 28 mm, ideal para cortes de madera.</p>
-    <p class="preco">65,27 €</p>
-    <a href="https://www.amazon.es/dp/B01LYU8DPA" target="_blank">Comprar en Amazon</a>
-  </div>
-      https://casa-espartana.vercel.app/atornillador-makita-df333dsae.html
-</section>
+  </header>
 
-<section id="manuales">
-  <h2>Herramientas Manuales</h2>
+  <section class="banner"></section>
 
-  <div class="producto">
-    <h3>Martillo de carpintero Stanley</h3>
-    <img src="https://cdn.pixabay.com/photo/2016/03/27/19/54/hammer-1284264_1280.jpg" alt="Martillo Stanley">
-    <p>Martillo profesional con cabeza de acero forjado, mango de fibra de vidrio y agarre ergonómico.</p>
-    <p class="preco">12,85 €</p>
-    <a href="martillo-stanley.html">Ver producto</a>
-  </div>
-</section>
+  <main>
+    <section id="makita">
+      <h2>Herramientas Makita en Obramat</h2>
 
-<section id="sobrenosotros">
-  <h2>Quiénes somos</h2>
-  <p><strong>Casa Espartana</strong> nació con la misión de ofrecer herramientas de calidad, resistentes y a precios justos. Atendemos toda España con entrega rápida y soporte personalizado por WhatsApp.</p>
-</section>
+      <div class="producto">
+        <h3>Taladro 12 V Makita DF333DSAE</h3>
+        <img src="https://obramat.es/productos/taladro-atornillador-de-bateria-12v-2ah-makita-df333dsae-10806222/imagen/1/260x260" alt="Makita DF333DSAE">
+        <p>Compacto, 2 velocidades, 2 baterías incluidas.</p>
+        <p class="precio">149 €</p>
+        <a class="boton" href="atornillador-makita-df333dsae.html">Ver producto</a>
+      </div>
 
-<section id="contacto">
-  <h2>Contacto</h2>
-  <p>Para dudas o pedidos especiales, escríbenos directamente:</p>
-  <a class="whatsapp" href="https://wa.me/351926729292" target="_blank">Contáctanos por WhatsApp</a>
-</section>
+      <div class="producto">
+        <h3>Taladro Percutor 18 V Makita DHP485</h3>
+        <img src="https://obramat.es/productos/taladro-percutor-bateria-makita-dhp485-18v-brushless/imagen/1/260x260" alt="Makita DHP485">
+        <p>Brushless, mayor rendimiento, ideal para obra.</p>
+        <p class="precio">99 €</p>
+        <a class="boton" href="#">Ver producto</a>
+      </div>
 
-  </main>  <footer>
-    <p>&copy; 2025 Casa Espartana – Herramientas con honor.</p>
-  </footer>
-</body>
-</html>
+      <div class="producto">
+        <h3>Martillo combinado DHR202 18 V</h3>
+        <img src="https://obramat.es/productos/martillo-combinado-bateria-makita-dhr202-18v-2j/imagen/1/260x260" alt="Makita DHR202">
+        <p>18 V, martillo y cincel. Perfecto para demolición ligera.</p>
+        <p class="precio">148 €</p>
+        <a class="boton" href="#">Ver producto</a>
+      </div>
+
+      <!-- Agrega más productos Makita según conveniencia -->
+    </section>
+
+    <section id="sobrenosotros">
+      <h2>Quiénes somos</h2>
+      <p><strong>Casa Espartana</strong> trae lo mejor de Obramat a tu taller con estilo y sin complicaciones. Expertos en herramientas, atención personal y envíos rápidos.</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <a class="whatsapp" href="https://wa.me/351926729292">Contáctanos por WhatsApp</a>
+    </section>
+  </main>
+
+  <footer>
+    <p
