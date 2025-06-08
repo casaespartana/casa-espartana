@@ -6,85 +6,68 @@
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f9f9f9;
-      color: #222;
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
     }
     header {
       background-color: #111;
-      color: #fff;
+      color: white;
       padding: 20px;
       text-align: center;
     }
     nav ul {
       list-style: none;
-      padding: 0;
       display: flex;
       justify-content: center;
+      padding: 0;
+      margin: 0;
       gap: 20px;
     }
     nav a {
-      color: #fff;
+      color: white;
       text-decoration: none;
       font-weight: bold;
     }
     .banner {
       background: url('banner-espartano.png') center/cover no-repeat;
       height: 300px;
-      width: 100%;
     }
     main {
-      padding: 40px 20px;
       max-width: 1200px;
       margin: auto;
+      padding: 20px;
     }
     h2 {
-      border-bottom: 3px solid #c00;
+      border-bottom: 3px solid #d62828;
       padding-bottom: 10px;
-      margin-bottom: 30px;
     }
     .producto {
-      border: 1px solid #ddd;
+      border: 1px solid #ccc;
       border-radius: 10px;
       padding: 20px;
-      margin-bottom: 30px;
-      background-color: #fff;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      background-color: white;
     }
     .producto img {
       max-width: 100%;
-      height: auto;
-      border-radius: 5px;
-    }
-    .producto h3 {
-      margin-top: 0;
+      border-radius: 8px;
     }
     .preco {
-      font-size: 1.2rem;
-      color: #c00;
+      color: #d62828;
       font-weight: bold;
-    }
-    .producto a {
-      display: inline-block;
-      margin-top: 10px;
-      background-color: #c00;
-      color: white;
-      padding: 10px 15px;
-      border-radius: 5px;
-      text-decoration: none;
+      font-size: 1.2rem;
     }
     footer {
       background-color: #111;
-      color: #fff;
+      color: white;
       text-align: center;
-      padding: 30px 10px;
+      padding: 20px;
     }
     .whatsapp {
-      display: block;
-      margin-top: 10px;
-      color: #25d366;
-      font-weight: bold;
+      color: #25D366;
       text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
     }
   </style>
 </head>
@@ -93,16 +76,13 @@
     <h1>Casa Espartana</h1>
     <nav>
       <ul>
-        <li><a href="#">Inicio</a></li>
         <li><a href="#electricas">Herramientas Eléctricas</a></li>
         <li><a href="#manuales">Herramientas Manuales</a></li>
         <li><a href="#sobrenosotros">Sobre Nosotros</a></li>
         <li><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
-  </header>
-  <section class="banner"></section>
-  <main>
+  </header>  <section class="banner"></section>  <main>
     <section id="electricas">
       <h2>Herramientas Eléctricas</h2><div class="producto">
     <h3>BLACK+DECKER Sierra Circular CS1250L‑qs</h3>
@@ -111,118 +91,33 @@
     <p class="preco">65,27 €</p>
     <a href="https://www.amazon.es/dp/B01LYU8DPA" target="_blank">Comprar en Amazon</a>
   </div>
-
-  
-    <div class="producto">
-  <h3>Martillo de carpintero Stanley</h3>
-  <img src="https://cdn.pixabay.com/photo/2016/03/27/19/54/hammer-1284264_1280.jpg" alt="Martillo Stanley">
-  <p>Martillo profesional con cabeza de acero forjado, mango de fibra de vidrio y agarre ergonómico.</p>
-  <p class="preco">12,85 €</p>
-  <a href="martillo-stanley.html">Ver producto</a>
-</div>
-    <h3>Einhell Sierra Circular TC‑CS 1250</h3>
-    <img src="https://m.media-amazon.com/images/I/61pmcVVm8rL._AC_SL1500_.jpg" alt="Sierra Einhell">
-    <p>Sierra circular de 1250 W, excelente relación calidad-precio para cortes rápidos y precisos.</p>
-    <p class="preco">60,95 €</p>
-    <a href="https://www.amazon.es/dp/B0897DZ3VF" target="_blank">Comprar en Amazon</a>
-  </div>
-
-  <div class="producto">
-    <h3>BOSCH GSR 18 V‑110 C Atornillador</h3>
-    <img src="https://m.media-amazon.com/images/I/71kAoy1bq9L._AC_SL1500_.jpg" alt="Atornillador Bosch">
-    <p>Atornillador inalámbrico robusto de 18 V, ideal para uso profesional con alta durabilidad.</p>
-    <p class="preco">215,00 €</p>
-    <a href="https://www.amazon.es/dp/B07ZRM4JML" target="_blank">Comprar en Amazon</a>
-  </div>
-
-  <div class="producto">
-    <h3>STAYER Atornillador inalámbrico 3,6 V</h3>
-    <img src="https://m.media-amazon.com/images/I/51V7AVTL03L._AC_SL1000_.jpg" alt="Atornillador Stayer">
-    <p>Compacto, ligero y práctico para reparaciones ligeras en el hogar. Ideal para el día a día.</p>
-    <p class="preco">35,35 €</p>
-    <a href="https://www.amazon.es/dp/B07L4PKWHP" target="_blank">Comprar en Amazon</a>
-  </div>
-
-  <div class="producto">
-    <h3>Taladro inalámbrico 12 V (1300 mAh)</h3>
-    <img src="https://m.media-amazon.com/images/I/71OEnXEz4QL._AC_SL1500_.jpg" alt="Taladro 12V">
-    <p>Taladro básico con batería de 12 V, ligero, recargable y listo para uso doméstico.</p>
-    <p class="preco">33,95 €</p>
-    <a href="https://www.amazon.es/dp/B0BN3BXQ76" target="_blank">Comprar en Amazon</a>
-  </div>
 </section>
 
 <section id="manuales">
   <h2>Herramientas Manuales</h2>
 
   <div class="producto">
-    <h3>Alicate universal Amazon Basics</h3>
-    <img src="https://m.media-amazon.com/images/I/61oh9Lq+qML._AC_SL1500_.jpg" alt="Alicate universal">
-    <p>Alicate multiuso de 20 cm con agarre antideslizante, ideal para trabajos eléctricos y mecánicos.</p>
-    <p class="preco">9,99 €</p>
-    <a href="https://www.amazon.es/dp/B08JCMGNTR" target="_blank">Comprar en Amazon</a>
-  </div>
-
-  <div class="producto">
     <h3>Martillo de carpintero Stanley</h3>
-    <img src="https://m.media-amazon.com/images/I/71n1qzFCbSL._AC_SL1500_.jpg" alt="Martillo Stanley">
-    <p>Martillo de acero con mango de fibra de vidrio. Duradero, ergonómico y resistente al impacto.</p>
+    <img src="https://cdn.pixabay.com/photo/2016/03/27/19/54/hammer-1284264_1280.jpg" alt="Martillo Stanley">
+    <p>Martillo profesional con cabeza de acero forjado, mango de fibra de vidrio y agarre ergonómico.</p>
     <p class="preco">12,85 €</p>
-    <a href="https://www.amazon.es/dp/B0001IW7HQ" target="_blank">Comprar en Amazon</a>
-  </div>
-
-  <div class="producto">
-    <h3>Juego de llaves combinadas WORKPRO</h3>
-    <img src="https://m.media-amazon.com/images/I/71eKHeRGgrL._AC_SL1500_.jpg" alt="Llaves combinadas">
-    <p>Conjunto de 12 llaves combinadas de acero al cromo vanadio, ideal para mecánica general.</p>
-    <p class="preco">24,99 €</p>
-    <a href="https://www.amazon.es/dp/B07TZRLF71" target="_blank">Comprar en Amazon</a>
-  </div>
-
-  <div class="producto">
-    <h3>Nivel de burbuja 40 cm</h3>
-    <img src="https://m.media-amazon.com/images/I/61kK3yGXibL._AC_SL1000_.jpg" alt="Nivel de burbuja">
-    <p>Herramienta esencial para instalaciones precisas. Tres burbujas para medición horizontal y vertical.</p>
-    <p class="preco">7,80 €</p>
-    <a href="https://www.amazon.es/dp/B00S8EDR7U" target="_blank">Comprar en Amazon</a>
-  </div>
-
-  <div class="producto">
-    <h3>Sierra manual para madera</h3>
-    <img src="https://m.media-amazon.com/images/I/71BepEZAmDL._AC_SL1500_.jpg" alt="Sierra manual madera">
-    <p>Sierra de mano con hoja de acero endurecido y mango ergonómico para cortes limpios en madera.</p>
-    <p class="preco">11,95 €</p>
-    <a href="https://www.amazon.es/dp/B084ZSZJQD" target="_blank">Comprar en Amazon</a>
+    <a href="martillo-stanley.html">Ver producto</a>
   </div>
 </section>
 
 <section id="sobrenosotros">
   <h2>Quiénes somos</h2>
-  <p style="font-size: 1.1rem; line-height: 1.6;">
-    En <strong>Casa Espartana</strong> creemos en el poder de las herramientas como armas de trabajo, progreso y transformación.
-    Nacimos con una misión clara: ofrecer productos de calidad, accesibles y listos para llegar a cada rincón de España,
-    directamente a tu taller, obra o garaje.
-  </p>
-
-  <p style="font-size: 1.1rem; line-height: 1.6;">
-    No somos una gran multinacional. Somos luchadores, emprendedores, apasionados por la fuerza del trabajo honesto.
-    Elegimos cuidadosamente nuestros proveedores para asegurarnos de que cada herramienta que ofrecemos cumple con el estándar espartano:
-    <strong>fuerza, durabilidad y precio justo</strong>.
-  </p>
-
-  <p style="font-size: 1.1rem; line-height: 1.6;">
-    Si nos eliges, no solo compras un producto. Te unes a una comunidad de trabajadores valientes, que luchan cada día para construir algo mejor.
-  </p>
-
-  <p style="font-weight: bold; font-size: 1.2rem; margin-top: 30px;">
-    Casa Espartana – Herramientas con honor. Enviamos a toda España.
-  </p>
+  <p><strong>Casa Espartana</strong> nació con la misión de ofrecer herramientas de calidad, resistentes y a precios justos. Atendemos toda España con entrega rápida y soporte personalizado por WhatsApp.</p>
 </section>
 
-  </main>
-  <footer>
-    <p>© 2025 Casa Espartana – Herramientas con honor.</p>
-    <a href="https://wa.me/351926729292" class="whatsapp" target="_blank">Contáctanos por WhatsApp</a>
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>Para dudas o pedidos especiales, escríbenos directamente:</p>
+  <a class="whatsapp" href="https://wa.me/351926729292" target="_blank">Contáctanos por WhatsApp</a>
+</section>
+
+  </main>  <footer>
+    <p>&copy; 2025 Casa Espartana – Herramientas con honor.</p>
   </footer>
 </body>
 </html>
